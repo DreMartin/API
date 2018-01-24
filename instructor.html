@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Reach for the stars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+
+  <!-- Header Section -->
+  <div class="row">
+    <div class="col">
+      <div class="jumbotron jumbotron-fluid jumbotron-header">
+        <div class="container">
+          <h1 class="display-4">Space is closer than you think</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Section -->
+  <div class="row">
+
+    <!-- Table Column -->
+    <div class="col">
+      <div class="row" id='buttonRow'>
+        <div class="col">
+          <button type="button" class="btn btn-lg btn-block btn-dark" id="peopleButton">Get People</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-lg btn-block btn-dark" id="planetButton">Get Planets</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn btn-lg btn-block btn-info" id="clearButton">Clear</button>
+        </div>
+      </div>
+
+      <!-- Table Section -->
+      <div class="row">
+        <div class="col">
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col" id='dataOne'>Flight#</th>
+                <th scope="col" id='dataTwo'>Launch Year</th>
+                <th scope="col" id='dataThree'>Launch Date</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+  <script src="./instructor.js"></script>
+</body>
+
+</html>

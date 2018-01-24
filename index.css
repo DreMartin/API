@@ -1,0 +1,43 @@
+body {
+    background-color: beige;
+
+}
+
+.inspiration{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.jumbotron-header{
+    background-image: url('https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee.jpg');
+    background-size: cover;
+}
+
+.h1-header-text{
+    color: white;
+}
+
+.p-header-text{
+    color: white;
+}
+
+
+.btn {
+    border-radius: 0px;
+}
+
+#buttonRow {
+    margin-bottom: 5%;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
